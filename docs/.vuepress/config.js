@@ -5,18 +5,18 @@ import { plumeTheme } from "vuepress-theme-plume";
 
 export default defineUserConfig({
   base: "/",
-  lang: "zh-TW",
+  lang: "zh-CN",
   locales: {
     "/": {
       title: "彰化縣白玉功德會",
-      lang: "zh-TW",
+      lang: "zh-CN",
       description: "尊嚴晚年照顧無憂 品牌承諾白玉相伴",
     },
-    // '/en/': {
-    //   title: 'Baiyu Site',
-    //   lang: 'en-US',
-    //   description: '',
-    // },
+    "/en/": {
+      title: "Baiyu",
+      lang: "en-US",
+      description: "",
+    },
   },
 
   bundler: viteBundler(),
