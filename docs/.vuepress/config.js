@@ -12,11 +12,11 @@ export default defineUserConfig({
       lang: "zh-CN",
       description: "尊嚴晚年照顧無憂 品牌承諾白玉相伴",
     },
-    "/en/": {
-      title: "Baiyu",
-      lang: "en-US",
-      description: "",
-    },
+    // "/en/": {
+    //   title: "Baiyu",
+    //   lang: "en-US",
+    //   description: "",
+    // },
   },
 
   bundler: viteBundler(),
