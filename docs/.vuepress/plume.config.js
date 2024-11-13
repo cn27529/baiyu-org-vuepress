@@ -1,38 +1,42 @@
-import { defineThemeConfig } from 'vuepress-theme-plume'
-import { enNavbar, zhNavbar } from './navbar'
-import { enNotes, zhNotes } from './notes'
+import { defineThemeConfig } from "vuepress-theme-plume";
+import { enNavbar, zhNavbar } from "./navbar";
+import { enNotes, zhNotes } from "./notes";
 
 /**
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: '/白玉logo.png',
+  logo: "/白玉logo.png",
   // your git repo url
-  docsRepo: '',
-  docsDir: 'docs',
+  docsRepo: "",
+  docsDir: "docs",
   appearance: true,
   social: [
-    { icon: 'facebook', link: 'https://www.facebook.com/chcbaiyu' },
-    { icon: 'github', link: 'https://github.com/cn27529/learn-vuepress-' },
+    { icon: "facebook", link: "https://www.facebook.com/chcbaiyu" },
+    {
+      icon: "github",
+      link: "https://github.com/cn27529/learn-vuepress-theme-plume",
+    },
   ],
   footer: {
-    message: 'Released under the MIT License.',
-    copyright: 'Copyright © 2024 powered by baiyu 彰化縣白玉功德會',
+    message: "",
+    copyright: "Copyright © 2024 powered by 彰化縣白玉功德會",
   },
   lastUpdated: false,
   createTime: false,
   editLink: false,
-  lang: 'zh-TW',
+  lang: "zh-TW",
 
   locales: {
-    '/': {
+    "/": {
       profile: {
-        avatar: '/images/白玉logo.png',
-        name: '彰化縣白玉功德會',
-        description: '',
-        // circle: true,
-        // location: '',
-        // organization: '',
+        avatar: "/images/白玉logo.png",
+        name: "彰化縣白玉功德會",
+        description: "尊嚴晚年照顧無憂 品牌承諾白玉相伴",
+        circle: true,
+        location: "杭州，中国",
+        organization: "xxx公司",
+        layout: "right",
       },
 
       navbar: zhNavbar,
@@ -52,4 +56,4 @@ export default defineThemeConfig({
     //   notes: enNotes,
     // },
   },
-})
+});

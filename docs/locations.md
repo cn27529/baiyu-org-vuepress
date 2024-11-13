@@ -1,5 +1,5 @@
 ---
-lang: zh-CN
+lang: zh-TW
 title: 白玉服務據點
 description: 白玉服務據點
 permalink: /locations
