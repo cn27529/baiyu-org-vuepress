@@ -25,3 +25,6 @@ pnpm vp-update
 
 - [vuepress](https://vuepress.vuejs.org/)
 - [vuepress-theme-plume](https://theme-plume.vuejs.press/)
+- [markdown-emoji](https://dev.to/nikolab/complete-list-of-github-markdown-emoji-markup-5aia)
+- [markdown-it-emoji](https://github.com/markdown-it/markdown-it-emoji)
+- [VuePress 生态系统](https://ecosystem.vuejs.press/zh/themes/default/frontmatter.html#features)

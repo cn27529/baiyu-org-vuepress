@@ -1,28 +1,31 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
+//import mixTheme from 'vuepress-theme-mix'
 
 export default defineUserConfig({
   base: '/',
-  lang: 'zh-CN',
+  lang: 'zh-TW',
   locales: {
     '/': {
-      title: 'My Vuepress Site',
+      title: '彰化縣白玉功德會',
       lang: 'zh-CN',
       description: '',
     },
-    '/en/': {
-      title: 'My Vuepress Site',
-      lang: 'en-US',
-      description: '',
-    },
+    // '/en/': {
+    //   title: 'Baiyu Site',
+    //   lang: 'en-US',
+    //   description: '',
+    // },
   },
 
   bundler: viteBundler(),
-
+  
+  // configure default theme  
+  
   theme: plumeTheme({
     // 添加您的部署域名
-    hostname: 'https://bai-yu.org/',
+    hostname: "https://bai-yu.org",
 
     plugins: {
       /**
@@ -85,4 +88,5 @@ export default defineUserConfig({
       // },
     },
   }),
+
 })
