@@ -42,7 +42,7 @@ export default defineUserConfig({
 
         /** @see https://zhensherlock.github.io/watermark-js-plus/zh/config/ */
         watermarkOptions: {
-          content: "your watermark",
+          content: "彰化縣白玉功德會所有",
           // ...
         },
       },

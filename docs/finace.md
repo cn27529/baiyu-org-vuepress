@@ -1,5 +1,4 @@
 ---
-lang: zh-TW
 title: 財報年報
 description: null
 permalink: /finace

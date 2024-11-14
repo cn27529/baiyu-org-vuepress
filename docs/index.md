@@ -29,11 +29,11 @@ config:
         #   text: Example page
         #   link: /example    
 
-watermark:
-  width: 300
-  height: 300
-  content: 彰化縣白玉功德會所有
-  opacity: 0.5
+# watermark:
+#   width: 300
+#   height: 300
+#   content: 彰化縣白玉功德會所有
+#   opacity: 0.5
 ---
 
 <style>
