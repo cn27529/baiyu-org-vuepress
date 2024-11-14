@@ -49,4 +49,11 @@ config:
   color: #ffffff;
 }
 
+.action[data-v-f4d48044] .vp-button {
+    padding: 0 20px;
+    font-size: 24px;
+    line-height: 135px;
+    border-radius: 50%;
+}
+
 </style>
