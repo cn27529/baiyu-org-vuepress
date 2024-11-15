@@ -26,6 +26,7 @@ export default defineUserConfig({
   theme: plumeTheme({
     // 添加您的部署域名
     hostname: "https://bai-yu.org",
+    permalink: true,
 
     plugins: {
       //主题支持在 markdown 中嵌入 PDF 文件，它能够在页面中直接阅读 PDF。该功能默认不启用。你需要在主题配置中开启。

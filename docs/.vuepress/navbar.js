@@ -15,7 +15,7 @@ export const zhNavbar = defineNavbarConfig([
   //   text: '下拉頁面',
   //   items: [{ text: '示例', link: '/notes/demo/README.md' }]
   // },
-  { text: "多頁面", link: "/demo/" },
+  //{ text: "多頁面", link: "/demo/" },
 ]);
 
 export const enNavbar = defineNavbarConfig([
