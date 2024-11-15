@@ -6,3 +6,4 @@ permalink: /demo/
 
 - [bar](./bar.md)
 - [foo](./foo.md)
+- [Swiper](./Swiper.md)
