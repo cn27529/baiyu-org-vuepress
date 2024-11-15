@@ -4,18 +4,18 @@ externalLinkIcon: false
 config:
   
   -
-    #type: hero
-    #full: true
-    #background: tint-plate
-    #tintPlate: 150
-    type: banner
-    banner: https://api.pengzhanbo.cn/wallpaper/bing
-    bannerMask:
-      light: 0.2
-      dark: 0.7
+    type: hero
+    full: true
+    background: tint-plate
+    tintPlate: 150
+    # type: banner
+    # banner: https://api.pengzhanbo.cn/wallpaper/bing
+    # bannerMask:
+    #   light: 0.1
+    #   dark: 0.3
     hero:
-      name: 彰化縣白玉功德會
-      tagline: 尊嚴晚年照顧無憂 品牌承諾白玉相伴
+      name: 尊嚴晚年照顧無憂
+      tagline: 品牌承諾白玉相伴
       text: 提供全人、全程、全方位之照顧服務網, 乃追求實現在地老化安養、尊嚴向晚。
       # Public 文件路径
       heroImage: /白玉logo.png
@@ -38,36 +38,17 @@ config:
 
 <style>
 
-.vp-home-banner .content .hero-name[data-v-7f6fc936] {
-    font-size: 64px;
-    font-weight: 600;
-    line-height: 1;
-    color: var(--vp-c-text-hero-name);
-}
-
 @media screen and (max-width: 500px) {
   .content .hero-name, .content .hero-tagline{
     font-size: 36px;
     display: block;
   }
-  
 }
 
-/* .content .hero-text{
+.content .hero-text{
   color: #ffffff;
-} */
-
-/* .action[data-v-c226fad9] {
-    background-image: url("/白玉logo.png");
 }
 
-.vp-button.medium[data-v-c1547f0d] {
-    padding: 0 20px;
-    font-size: 24px;
-    line-height: 135px;
-    border-radius: 50%;
-} */
 
- 
 
 </style>
