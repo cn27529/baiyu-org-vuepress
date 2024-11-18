@@ -3,7 +3,7 @@ pageLayout: home
 title: custom homepage
 config:
   -
-    type: VPHomeBox
+    type: custom
     name: 彰化縣白玉功德會
     description: 尊嚴晚年照顧無憂 品牌承諾白玉相伴
     avatar: /白玉logo.png
