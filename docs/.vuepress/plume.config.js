@@ -22,15 +22,18 @@ export default defineThemeConfig({
     message: "",
     copyright: "Copyright © 2024 powered by 彰化縣白玉功德會",
   },
-  lastUpdated: false,
-  createTime: false,
+  //类型： false | LastUpdatedOptions
+  lastUpdated: { 
+    formatOptions: { dateStyle: 'short', timeStyle: 'short' } 
+  },
+  createTime: true,
   editLink: false,
   lang: "zh-TW",
 
   locales: {
     "/": {
       profile: {
-        avatar: "/images/白玉logo.png",
+        avatar: "/白玉logo.png",
         name: "彰化縣白玉功德會",
         description: "尊嚴晚年照顧無憂 品牌承諾白玉相伴",
         circle: true,
