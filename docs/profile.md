@@ -14,11 +14,7 @@ config:
     bannerMask:
       light: 0.2
       dark: 0.7
-    hero:
-      name: 彰化縣白玉功德會
-      tagline: 尊嚴晚年照顧無憂 品牌承諾白玉相伴
-      text: 提供全人、全程、全方位之照顧服務網, 乃追求實現在地老化安養、尊嚴向晚。
-      heroImage: /白玉logo.png
+    hero:      
       actions:
         -
           theme: alt
