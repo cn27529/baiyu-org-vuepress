@@ -1,5 +1,5 @@
 ---
-title: finace
+title: 財報年報
 createTime: 2024/11/15 11:35:45
 permalink: /finace/
 ---

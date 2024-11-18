@@ -15,10 +15,16 @@ const zhFinaceNote = defineNoteConfig({
   sidebar: "auto",
 });
 
+const zhSocialSupportNote = defineNoteConfig({
+  dir: "social-support",
+  link: "/social-support",
+  sidebar: "auto",
+});
+
 export const zhNotes = defineNotesConfig({
   dir: "notes",
   link: "/",
-  notes: [zhDemoNote, zhFinaceNote],
+  notes: [zhDemoNote, zhFinaceNote, zhSocialSupportNote],
 });
 
 /* =================== locale: en-US ======================= */

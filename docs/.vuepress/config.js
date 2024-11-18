@@ -29,10 +29,7 @@ export default defineUserConfig({
     permalink: true,
 
     plugins: {
-      //主题支持在 markdown 中嵌入 PDF 文件，它能够在页面中直接阅读 PDF。该功能默认不启用。你需要在主题配置中开启。
-      markdownPower: {
-        pdf: true,
-      },
+      
       //此插件可在在页面中添加水印，可以选择为 全局页面 或 部分页面添加水印，还可以选择添加 文字水印 或 图片水印。
       watermark: {
         enabled: false, // boolean 类型控制是否全局启用
@@ -75,28 +72,29 @@ export default defineUserConfig({
         //   mermaid: true,
         //   flowchart: true,
       },
-
+      
       /**
        *  markdown power
        * @see https://theme-plume.vuejs.press/config/plugin/markdown-power/
        */
-      // markdownPower: {
-      //   pdf: true,
-      //   caniuse: true,
-      //   plot: true,
-      //   bilibili: true,
-      //   youtube: true,
-      //   icons: true,
-      //   codepen: true,
-      //   replit: true,
-      //   codeSandbox: true,
-      //   jsfiddle: true,
-      //   repl: {
-      //     go: true,
-      //     rust: true,
-      //     kotlin: true,
-      //   },
-      // },
+      markdownPower: {
+        //主题支持在 markdown 中嵌入 PDF 文件，它能够在页面中直接阅读 PDF。该功能默认不启用。你需要在主题配置中开启。
+        pdf: true,
+        //caniuse: true,
+        // plot: true,
+        // bilibili: true,
+         youtube: true,
+        // icons: true,
+        // codepen: true,
+        // replit: true,
+        // codeSandbox: true,
+        // jsfiddle: true,
+        // repl: {
+        //   go: true,
+        //   rust: true,
+        //   kotlin: true,
+        // },
+      },
 
       /**
        * 评论 comments
