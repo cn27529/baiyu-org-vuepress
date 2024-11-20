@@ -3,12 +3,11 @@ title: 我們的團隊
 description: null
 permalink: /ourteam
 pageLayout: doc
-# lastUpdated: true
-# editLink: false
+editLink: false
 sidebar: false
 prev: false
 next: false
-aside: false
+aside: true
 createTime: 2024/11/15 11:02:17
 ---
 

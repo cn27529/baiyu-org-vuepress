@@ -1,4 +1,5 @@
 ---
+home: true
 pageLayout: home
 title: banner homepage
 createTime: 2024/11/10 10:35:13

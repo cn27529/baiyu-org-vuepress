@@ -1,18 +1,16 @@
 ---
+#home: true
 pageLayout: home
+title: curren homepage
+createTime: 2024/11/10 10:35:13
+permalink: /
 externalLinkIcon: false
 config:
-  
   -
     type: hero
     full: true
     background: tint-plate
-    tintPlate: 150
-    # type: banner
-    # banner: https://api.pengzhanbo.cn/wallpaper/bing
-    # bannerMask:
-    #   light: 0.1
-    #   dark: 0.3
+    tintPlate: 150    
     hero:
       name: 尊嚴晚年照顧無憂
       tagline: 品牌承諾白玉相伴
@@ -27,13 +25,15 @@ config:
         # -
         #   theme: brand
         #   text: Example page
-        #   link: /example    
+        #   link: /example
+        
 
 # watermark:
 #   width: 300
 #   height: 300
 #   content: 彰化縣白玉功德會所有
 #   opacity: 0.5
+
 ---
 
 <style>
@@ -49,11 +49,6 @@ config:
   color: #ffffff;
 }
 
-.action[data-v-f4d48044] .vp-button {
-    padding: 0 20px;
-    font-size: 24px;
-    line-height: 135px;
-    border-radius: 50%;
-}
+
 
 </style>

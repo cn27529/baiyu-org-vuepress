@@ -1,4 +1,5 @@
 ---
+home: true
 pageLayout: home
 title: custom homepage
 config:

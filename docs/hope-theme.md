@@ -1,4 +1,5 @@
 ---
+#home: true
 pageLayout: home
 title: hope theme
 permalink: /hope-theme

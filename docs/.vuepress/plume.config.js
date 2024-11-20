@@ -31,7 +31,7 @@ export default defineThemeConfig({
   contributors: false, 
   createTime: true,
   editLink: false,
-  lang: "zh-TW",
+  //lang: "zh-CN",
 
   locales: {
     "/": {
