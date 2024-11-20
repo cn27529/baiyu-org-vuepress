@@ -7,6 +7,7 @@ import { enNotes, zhNotes } from "./notes";
  */
 export default defineThemeConfig({
   logo: "/白玉logo.png",
+  logoDark: "/白玉logo.png",
   // your git repo url
   docsRepo: "",
   docsDir: "docs",
@@ -22,10 +23,12 @@ export default defineThemeConfig({
     message: "",
     copyright: "Copyright © 2024 powered by 彰化縣白玉功德會",
   },
-  //类型： false | LastUpdatedOptions
+  //是否启用 最近更新时间戳，类型： false | LastUpdatedOptions
   lastUpdated: { 
     formatOptions: { dateStyle: 'short', timeStyle: 'short' } 
   },
+  //是否启用 贡献者列表
+  contributors: false, 
   createTime: true,
   editLink: false,
   lang: "zh-TW",
@@ -41,7 +44,6 @@ export default defineThemeConfig({
         organization: "xxx公司",
         layout: "right",
       },
-
       navbar: zhNavbar,
       notes: zhNotes,
     },
