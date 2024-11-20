@@ -14,7 +14,7 @@ config:
     hero:
       name: 尊嚴晚年照顧無憂
       tagline: 品牌承諾白玉相伴
-      text: 提供全人、全程、全方位之照顧服務網, 乃追求實現在地老化安養、尊嚴向晚。
+      text: 提供全人、全程、全方位之照顧服務網，乃追求實現在地老化安養、尊嚴向晚。
       # Public 文件路径
       heroImage: /白玉logo.png
       actions:
@@ -40,8 +40,13 @@ config:
 
 @media screen and (max-width: 500px) {
   .content .hero-name, .content .hero-tagline{
-    font-size: 36px;
+    font-size: 34px;
     display: block;
+  }
+
+  .content .hero-text{
+    color: #ffffff;
+    font-size: 19px;
   }
 }
 
