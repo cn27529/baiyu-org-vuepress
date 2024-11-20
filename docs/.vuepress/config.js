@@ -27,7 +27,6 @@ export default defineUserConfig({
     // 添加您的部署域名
     hostname: "https://bai-yu.org",
     permalink: true,
-
     plugins: {
       
       //此插件可在在页面中添加水印，可以选择为 全局页面 或 部分页面添加水印，还可以选择添加 文字水印 或 图片水印。

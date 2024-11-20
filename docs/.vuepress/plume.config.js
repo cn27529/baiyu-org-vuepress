@@ -12,6 +12,12 @@ export default defineThemeConfig({
   docsRepo: "",
   docsDir: "docs",
   appearance: true,
+  // 控制部分自动生成
+  autoFrontmatter: {
+    permalink: true, // 是否生成永久链接
+    createTime: true, // 是否生成创建时间
+    title: true, // 是否生成标题
+  },
   social: [
     { icon: "facebook", link: "https://www.facebook.com/chcbaiyu" },
     {
