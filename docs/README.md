@@ -9,7 +9,7 @@ config:
   -
     type: hero
     full: true
-    background: tint-plate
+    background: 'tint-plate'
     tintPlate: 150    
     hero:
       name: 尊嚴晚年照顧無憂
