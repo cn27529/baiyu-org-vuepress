@@ -1,0 +1,18 @@
+:root {
+    scroll-behavior: smooth;
+  }
+
+
+.vp-home-banner .content .hero-name {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1;
+    color: var(--vp-c-text-hero-name);
+}
+
+@media screen and (max-width: 500px) {
+    .content .hero-name, .content .hero-tagline{
+      font-size: 36px;
+      display: block;
+    }    
+}
