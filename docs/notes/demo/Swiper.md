@@ -10,7 +10,7 @@ import Swiper from 'vuepress-theme-plume/features/Swiper.vue'
 </script>
 
 <!-- 导入后，即可在 markdown 中使用 -->
-<Swiper effect="fade" navigation=false swipe=true :items="['/th.webp', '/th2.webp','/th3.webp','/th4.webp']" />
+<Swiper effect="fade" navigation=false swipe=true :items="['/th.webp', '/th2.webp','/th3.webp','/th4.webp','/th5.webp','/th6.webp','/th7.webp']" />
 
 
 ## subject 

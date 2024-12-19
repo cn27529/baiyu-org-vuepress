@@ -4,7 +4,7 @@ import { defineNoteConfig, defineNotesConfig } from "vuepress-theme-plume";
 
 const zhDemoNote = defineNoteConfig({
   dir: "demo",
-  link: "/demo",
+  link: "/demo/",
   // 配置 笔记侧边导航栏，用于导航向笔记内的所有文档，声明为 `auto` 的，将根据目录结构自动生成侧边栏导航
   sidebar: "auto",
 });
