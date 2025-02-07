@@ -1,7 +1,7 @@
 ---
 #home: true
 pageLayout: home
-title: curren homepage
+title: 白玉首頁
 createTime: 2024/11/10 10:35:13
 permalink: /
 externalLinkIcon: false

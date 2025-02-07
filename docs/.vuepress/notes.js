@@ -13,6 +13,7 @@ const zhFinaceNote = defineNoteConfig({
   dir: "finace",
   link: "/finace",
   sidebar: "auto",
+  
 });
 
 const zhSocialSupportNote = defineNoteConfig({
