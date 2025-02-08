@@ -31,13 +31,13 @@ pnpm vp-update
 
 ## deploys
 - [deploy page](https://v1.vuepress.vuejs.org/guide/deploy.html#github-pages)
+- [deploy settings](https://vuepress.vuejs.org/zh/guide/deployment.html#edgio)
 
 ### Netlify
 ```inputs
 Build command npm: run docs:build
 Publish directory: docs/.vuepress/dist
 ```
-- [deploy setting](https://app.netlify.com/sites/baiyu/configuration/deploys)
 - [baiyu.netlify.app](https://baiyu.netlify.app/)
 
 ### Vercel
