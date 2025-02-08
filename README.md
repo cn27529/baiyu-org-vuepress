@@ -37,6 +37,7 @@ pnpm vp-update
 Build command npm: run docs:build
 Publish directory: docs/.vuepress/dist
 ```
--[baiyu.netlify.app](https://baiyu.netlify.app/)
+- [deploy setting](https://app.netlify.com/sites/baiyu/configuration/deploys)
+- [baiyu.netlify.app](https://baiyu.netlify.app/)
 
 ### Vercel
