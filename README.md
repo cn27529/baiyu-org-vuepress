@@ -30,6 +30,7 @@ pnpm vp-update
 - [VuePress 生态系统](https://ecosystem.vuejs.press/zh/themes/default/frontmatter.html#features)
 
 ## deploys
+- [deploy page](https://v1.vuepress.vuejs.org/guide/deploy.html#github-pages)
 
 ### Netlify
 ```inputs
