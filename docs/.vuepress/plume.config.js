@@ -27,7 +27,7 @@ export default defineThemeConfig({
   ],
   footer: {
     message: "",
-    copyright: "Copyright © 2024 powered by 彰化縣白玉功德會",
+    copyright: "Copyright © 2025 powered by 彰化縣白玉功德會",
   },
   //是否启用 最近更新时间戳，类型： false | LastUpdatedOptions
   lastUpdated: { 
