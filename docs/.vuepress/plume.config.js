@@ -19,7 +19,7 @@ export default defineThemeConfig({
     title: true, // 是否生成标题
   },
   social: [
-    { icon: "facebook", link: "https://www.facebook.com/chcbaiyu" },
+    { icon: "facebook", link: "https://www.facebook.com/palyul520" },
     {
       icon: "github",
       link: "https://github.com/cn27529/learn-vuepress-theme-plume",
