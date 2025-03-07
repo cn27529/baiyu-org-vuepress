@@ -19,6 +19,7 @@ export default defineThemeConfig({
     title: true, // 是否生成标题
   },
   social: [
+    { icon: "facebook", link: "https://www.facebook.com/chcpalyul" },
     { icon: "facebook", link: "https://www.facebook.com/palyul520" },
     {
       icon: "github",
