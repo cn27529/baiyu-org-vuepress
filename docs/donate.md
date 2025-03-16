@@ -21,13 +21,13 @@ config:
       -
         icon: ❤️
         title: 公司行號捐款
-        link: https://vuepress.vuejs.org/
+        link: 
         linkText: 立即捐款
         details: 銀行代碼：050  <br>銀行：臺灣企銀 員林分行 <br>帳號：55012108809  <br>戶名：社團法人彰化縣白玉功德會
       -
         icon: 💛
         title: 線上捐款
-        link: https://www.tch-donate.org.tw/contents/project_ct?page=2&p_id=2
+        link: 
         linkText: 
         details: https://www.tch-donate.org.tw/contents/project_ct?page=2&p_id=2
       -
