@@ -3,7 +3,7 @@ import { enNavbar, zhNavbar } from "./navbar";
 import { enNotes, zhNotes } from "./notes";
 
 const currentDate = new Date();
-let Copyright_year = currentDate.getFullYear().toString();
+let Copyright_year = currentDate.getFullYear().toString(); //版權所有年份更新
 
 /**
  * @see https://theme-plume.vuejs.press/config/basic/
