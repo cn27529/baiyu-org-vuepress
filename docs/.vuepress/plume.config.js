@@ -2,6 +2,9 @@ import { defineThemeConfig } from "vuepress-theme-plume";
 import { enNavbar, zhNavbar } from "./navbar";
 import { enNotes, zhNotes } from "./notes";
 
+const currentDate = new Date();
+let Copyright_year = currentDate.getFullYear().toString();
+
 /**
  * @see https://theme-plume.vuejs.press/config/basic/
  */
@@ -19,7 +22,7 @@ export default defineThemeConfig({
     title: true, // 是否生成标题
   },
   social: [
-    { icon: "facebook", link: "https://www.facebook.com/chcpalyul" },
+    //{ icon: "facebook", link: "https://www.facebook.com/chcpalyul" },
     { icon: "facebook", link: "https://www.facebook.com/palyul520" },
     {
       icon: "github",
@@ -28,14 +31,14 @@ export default defineThemeConfig({
   ],
   footer: {
     message: "",
-    copyright: "Copyright © 2025 powered by 彰化縣白玉功德會",
+    copyright: "Copyright © " + Copyright_year + " powered by 彰化縣白玉功德會",
   },
   //是否启用 最近更新时间戳，类型： false | LastUpdatedOptions
-  lastUpdated: { 
-    formatOptions: { dateStyle: 'short', timeStyle: 'short' } 
+  lastUpdated: {
+    formatOptions: { dateStyle: "short", timeStyle: "short" },
   },
   //是否启用 贡献者列表
-  contributors: false, 
+  contributors: false,
   createTime: true,
   editLink: false,
   //lang: "zh-CN",
