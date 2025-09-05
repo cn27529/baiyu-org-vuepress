@@ -34,11 +34,15 @@ pnpm vp-update
 - [deploy page](https://v1.vuepress.vuejs.org/guide/deploy.html#github-pages)
 - [deploy settings](https://vuepress.vuejs.org/zh/guide/deployment.html#edgio)
 
-### Netlify
+### Netlify (Failed)
 ```inputs
 Build command npm: run docs:build
 Publish directory: docs/.vuepress/dist
 ```
 - [baiyu.netlify.app](https://baiyu.netlify.app/)
 
-### Vercel
+### Vercel (Runing)
+- [https://vercel.com/cn27529s-project/baiyu](https://baiyu-mu.vercel.app/)
+
+### domain for godaddy
+https://bai-yu.org
