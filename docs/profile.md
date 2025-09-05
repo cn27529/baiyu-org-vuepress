@@ -10,7 +10,7 @@ config:
   -
     type: profile
     name: 彰化縣白玉功德會
-    description: 尊嚴晚年照顧無憂 品牌承諾白玉相伴
+    description: 尊嚴晚年照顧無憂 品牌承諾白玉相伴123
     avatar: /白玉logo.png
     banner: https://api.pengzhanbo.cn/wallpaper/bing
     bannerMask:
