@@ -1,7 +1,7 @@
 ---
 title: 白玉服務據點
 description: 白玉功德會服務據點
-keywords: 白玉功德會務據點 服務據點 
+keywords: 白玉功德會 白玉功德會務據點 白玉服務據點 白玉服務 
 
 
 permalink: /locations
