@@ -2,6 +2,7 @@ import { viteBundler } from "@vuepress/bundler-vite";
 import { defineUserConfig } from "vuepress";
 import { plumeTheme } from "vuepress-theme-plume";
 //import { searchPlugin } from "@vuepress-plume/plugin-search";
+//import { hopeTheme } from "vuepress-theme-hope";
 
 export default defineUserConfig({
   base: "/",
